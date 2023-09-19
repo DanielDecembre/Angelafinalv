@@ -32,7 +32,7 @@
   align-items: right;
   width: 600px;
   direction: ltr;
-  text-align: justify;
+  text-align: start;
   text-justify: distribute;
   text-align-last: left;
   font-size: 18px;
@@ -42,7 +42,7 @@
   width: 550px;
   height: 687px;
   flex-shrink: 0;
-  margin-bottom: 200px;
+  margin-bottom: -220px;
 }
 
 @media (max-width: 900px) {
@@ -56,7 +56,7 @@
 .grid-even-coloms {
   display: grid;
   grid-template-columns: 50% 50%;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 @media (max-width: 1250px) {

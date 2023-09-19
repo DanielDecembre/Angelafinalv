@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import line from "../Dash.png";
 import Image from "next/Image";
-import Headshot from "./V2Headshot.png";
+import Headshot from "../V2Headshot.png";
 
 const About = () => (
   <div className="about-container">

@@ -70,3 +70,10 @@
 }
 /* You
    can add additional styles for the images if needed */
+@media (max-width: 900px) {
+  .collaborate-container {
+    width: 300px;
+    height: auto;
+    margin: 30px;
+  }
+}
