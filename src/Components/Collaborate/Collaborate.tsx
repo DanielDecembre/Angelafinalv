@@ -4,7 +4,7 @@ import projectIcon from "./Project_Icon.png";
 import businessIcon from "./Business_Icon.png";
 import "./Collaborate.css";
 import line from "../Dash.png";
-import Image from "next/Image";
+import Image from "next/image";
 
 import Card from "./Card";
 
@@ -14,7 +14,7 @@ const Collaborate = () => {
       <div className="text-container">
         <h1>
           {" "}
-          Let&apos;s collaborate <Image src={line} />
+          Let&apos;s collaborate <Image src={line} alt="dash"/>
         </h1>
       </div>
       <div className="row">
@@ -22,7 +22,7 @@ const Collaborate = () => {
           icon={lightIcon}
           heading={"Sprint"}
           body={
-            "Task-orientated relationships focused on a near-term needs. Based on an hourly/day rate."
+            "Task-oriented relationships focused on a near-term needs. Based on an hourly/day rate."
           }
           timing={"Typically 2-6 weeks"}
         />

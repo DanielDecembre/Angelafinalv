@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Angela McLeod",
+};
+
+
 export default function RootLayout({
   children,
 }: {
