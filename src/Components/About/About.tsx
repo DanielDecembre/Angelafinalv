@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import line from "../Dash.png";
-import Image from "next/Image";
+import Image from "next/image";
 import Headshot from "../V2Headshot.png";
 
 const About = () => (
@@ -9,7 +9,7 @@ const About = () => (
     <div className="bio">
       <div className="grid-even-coloms">
         <h1>
-          About <Image src={line}></Image>
+          About <Image src={line} alt="headshot"></Image>
         </h1>
       </div>
       <p>
