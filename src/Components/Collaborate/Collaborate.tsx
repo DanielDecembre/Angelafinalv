@@ -1,9 +1,9 @@
 import React from 'react';
-import lightIcon from './Lightning_Icon.png';
-import projectIcon from './Project_Icon.png';
-import businessIcon from './Business_Icon.png';
+import lightIcon from '../../../public/Lightning_Icon.png';
+import projectIcon from '../../../public/Project_Icon.png';
+import businessIcon from '../../../public/Business_Icon.png';
 import './Collaborate.css';
-import line from '../Dash.png';
+import line from '../../../public/Dash.png';
 import Image from 'next/image';
 import { Card } from './Card/Card';
 

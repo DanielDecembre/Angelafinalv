@@ -1,6 +1,6 @@
 import React from 'react';
 import './Connect.css';
-import line from '../Dash.png';
+import line from '../../../../public/Dash.png';
 import Image from 'next/image';
 
 export const Connect = () => {

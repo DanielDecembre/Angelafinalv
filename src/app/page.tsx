@@ -5,7 +5,7 @@ import {
   Collaborate,
   Connect,
   Navbar,
-} from "@/components";
+} from '@/Components';
 
 export default function Page() {
   return (
@@ -14,9 +14,9 @@ export default function Page() {
       <Angela />
       <Breath />
       <div className="p-4 md:p-8">
-      <About />
-      <Collaborate />
-      <Connect />
+        <About />
+        <Collaborate />
+        <Connect />
       </div>
     </div>
   );
