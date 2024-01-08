@@ -35,39 +35,7 @@
   gap: 32px;
   width: 90%;
 }
-.box {
-  width: 33%;
-  height: 420px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #29282b;
-  padding: 0px 40px;
-}
-.box > div {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-.box img {
-  width: 32px;
-  height: 32px;
-}
-.box h2 {
-  color: white;
-  margin: 0px;
-  text-align: left;
-  font-size: 24px;
-}
-.box p {
-  color: white;
-  text-align: left;
-  margin: 0px;
-}
-
-.box-33 {
-  width: 40%;
-}
+ 
 /* You
    can add additional styles for the images if needed */
 @media (max-width: 900px) {

@@ -2,18 +2,19 @@ import React from 'react';
 import './Connect.css';
 import line from '../../../../public/Dash.png';
 import Image from 'next/image';
+import { Header } from '../../Header/Header';
 
 export const Connect = () => {
   return (
-    <div className="connect-container">
-      <div className="header-container">
-        <h1>
-          Get in touch <Image src={line} alt="dash"></Image>
-        </h1>
+    <div>
+      <div className="px-[10px] py-20px;">
+        <Header>Get in touch</Header>
       </div>
-      <div className="info-container">
-        <p>Based in Silicon Valley, working remotely with global clients.</p>
-        <p>+1.515.208.2306</p>
+      <div className="flex-col px-20px py-70px">
+        <p className="mb-6 px-[15px] py-20px">
+          Based in Silicon Valley, working remotely with global clients.
+        </p>
+        <p className="px-[15px] py-20px">+1.515.208.2306</p>
       </div>
     </div>
   );

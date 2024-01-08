@@ -6,19 +6,20 @@ import './Collaborate.css';
 import line from '../../../public/Dash.png';
 import Image from 'next/image';
 import { Card } from './Card/Card';
+import { Header } from '../Header/Header';
 
 export const Collaborate = () => {
   return (
-    <div className="collaborate-container">
-      <div className="text-container">
-        <h1>
-          {' '}
-          Let&apos;s collaborate <Image src={line} alt="dash" />
-        </h1>
+    <div className="flex w-full h-auto flex-col justify-center items-start gap-2 text-full mt-20 mb-40 mx-auto px-[12px] py-[30px];">
+      <div
+        className="text-justify text-[#29282b];
+  direction: ltr;"
+      >
+        <Header> Let&apos;s collaborate</Header>
       </div>
-      <div className="row">
+      <div className="flex flex-col md:flex-row gap-8 w-[100%] h-[100%]">
         <Card
-          icon={ lightIcon }
+          icon={lightIcon}
           heading={'Sprint'}
           body={
             'Task-oriented relationships focused on a near-term needs. Based on an hourly/day rate.'

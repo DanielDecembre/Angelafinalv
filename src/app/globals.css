@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+
 @tailwind utilities;
 
 /*.App {
@@ -61,7 +62,6 @@ body {
 } 
 */
 
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -69,11 +69,11 @@ code {
 
 @layer base {
   h1 {
-    @apply text-5xl lg:text-[5rem] text-[#29282b] tracking-tight font-display;
+    @apply text-4xl md:text-5xl text-[#29282b] tracking-tight font-display;
   }
 
   h2 {
-    @apply text-2xl not-italic font-bold leading-[normal] text-[#29282b];
+    @apply text-3xl not-italic font-bold leading-[normal] text-[#29282b];
   }
 
   h3 {
@@ -81,14 +81,27 @@ code {
   }
 
   p {
-    @apply text-lg not-italic font-normal leading-[120%];
+    @apply text-2xl not-italic font-normal leading-[120%];
   }
 }
 
 @layer components {
 }
+@layer utilities {
+  .text-2xl {
+    font-size: 16px; /* Make sure to match the size defined in tailwind.config.js */
+  }
+  .text-3xl {
+    font-size: 24px
+  }
+  .text-5xl {
+    font-size: 80px
+  }
+  .text-4xl {
+    font-size:64px
+  }
 
-
+}
 /*
 h1 {
   font-family: Times New Roman;
@@ -138,4 +151,3 @@ p {
   line-height: 120%; /* 19.2px */
 /*
 } */
-

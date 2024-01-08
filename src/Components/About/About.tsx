@@ -2,12 +2,14 @@ import Image from 'next/image';
 import Headshot from '../../../public/V2Headshot.png';
 import { Header } from '../Header/Header';
 
-
 export const About = () => (
-  <div className="mx-auto flex h-full flex-col items-start justify-between gap-16 bgg-[#ede9e6] px-5 pb-40 pt-20 lg:flex-row lg:items-center">
-    <div className="flex flex-col text-lg">
-      <Header>About</Header>
-      <div className=" space-y-6">
+  <div
+    className="mx-auto flex h-full flex-col items-start justify-between 
+  gap-16 bgg-[#ede9e6] px-5 pb-40 pt-20"
+  > 
+    <Header>About</Header>
+    <div className="flex text-lg gap-16 flex-col-reverse justify-self-end md:flex-row md:justify-self-star">
+      <div className="space-y-6 w-full md:w-6/12">
         <p>
           Prior to founding her own practice, Angela was the VP, Brand at
           YogaGlo, a digital wellness company that offers yoga and meditation
@@ -48,11 +50,13 @@ export const About = () => (
           base camp of Mt. Everest.
         </p>
       </div>
+      <div className="sm:w-full md:w-6/12">
+        <Image
+          src={Headshot}
+          alt="Headshot"
+          className="shrink-0 lg:m-0 lg:h-[687px] lg:w-[550px] lg:self-end"
+        />
+      </div>
     </div>
-    <Image
-      src={Headshot}
-      alt="Headshot"
-      className="shrink-0 lg:m-0 lg:h-[687px] lg:w-[550px] lg:self-end"
-    />
   </div>
 );

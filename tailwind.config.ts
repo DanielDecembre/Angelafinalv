@@ -12,7 +12,7 @@ const mainConfig: Config = {
     },
     extend: {
       fontFamily: {
-        display: ['Helvetica', ...fontFamily.sans],
+        display: ['Times New Roman', ...fontFamily.sans],
       },
       fontSize: {
         '5xl': '5rem',
