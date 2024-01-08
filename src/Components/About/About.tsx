@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Headshot from '../../../public/V2Headshot.png';
-import { Header } from '../Header/Header';
+import { Header } from '../Header/Header'
 
 export const About = () => (
   <div

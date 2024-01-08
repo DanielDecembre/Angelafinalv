@@ -5,7 +5,7 @@ import {
   Collaborate,
   Connect,
   Navbar,
-} from '@/Components';
+} from '@/components';
 
 export default function Page() {
   return (
