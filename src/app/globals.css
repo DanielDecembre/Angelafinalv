@@ -88,6 +88,9 @@ code {
 @layer components {
 }
 @layer utilities {
+  .text-1xl {
+    font-size:18px;
+  }
   .text-2xl {
     font-size: 16px; /* Make sure to match the size defined in tailwind.config.js */
   }
