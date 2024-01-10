@@ -73,7 +73,7 @@ code {
   }
 
   h2 {
-    @apply text-3xl not-italic font-bold leading-[normal] text-[#29282b];
+    @apply text-3xl md:text-1xl not-italic font-bold leading-[normal] text-[#29282b];
   }
 
   h3 {
@@ -89,19 +89,22 @@ code {
 }
 @layer utilities {
   .text-1xl {
-    font-size:18px;
+    font-size:12px;
   }
   .text-2xl {
     font-size: 16px; /* Make sure to match the size defined in tailwind.config.js */
   }
   .text-3xl {
-    font-size: 24px
+    font-size: 24px;
   }
   .text-5xl {
-    font-size: 80px
+    font-size: 80px;
   }
   .text-4xl {
-    font-size:64px
+    font-size:64px;
+  }
+  .text-6xl {
+    font-size:18px;
   }
 
 }

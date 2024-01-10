@@ -17,7 +17,7 @@ export const Collaborate = () => {
       >
         <Header> Let&apos;s collaborate</Header>
       </div>
-      <div className="flex flex-col md:flex-row gap-8 w-[100%] h-[100%]">
+      <div className="flex flex-col w-[100%] h-[100%] md:flex-row gap-8 w-full h-[100%]">
         <Card
           icon={lightIcon}
           heading={'Sprint'}
